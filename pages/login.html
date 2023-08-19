@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>LogIn</title>
+        <link rel="stylesheet" href="../CSS/login.css" />
+    </head>
+    <body>
+        <script
+            src="https://kit.fontawesome.com/843994930b.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Braah+One&family=Kanit&family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            * {
+                font-family: "Kanit", sans-serif;
+            }
+        </style>
+        <header id="header"></header>
+        <main id="main">
+            <aside id="leftSide" class="leftRight">
+                <img src="../image/signlog2.svg" alt="Ảnh trang đăng kí" />
+            </aside>
+            <!--  -->
+            <aside id="rightSide" class="leftRight">
+                <div id="formWrap">
+                    <div id="formContent">
+                        <div id="SandL">
+                            <h3 class="SignLog">
+                                <a href="./signup.html">Sign up</a>
+                            </h3>
+                            <h3 class="SignLog">
+                                Log in
+                                <div id="cross"></div>
+                            </h3>
+                            <a href="../index.html" style="margin-left: 312px"
+                                ><i class="fa-solid fa-x"></i
+                            ></a>
+                        </div>
+                        <!--  -->
+                        <div id="google-face-apple">
+                            <div id="google" class="div-GF">
+                                <a href="#" class="aGF">
+                                    <i class="fa-brands fa-google"></i>
+                                    <span>Log in with Google</span></a
+                                >
+                            </div>
+                            <!--  -->
+                            <div id="facebook" class="div-GF">
+                                <a href="#" class="aGF">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <span>Log in with Facebook</span></a
+                                >
+                            </div>
+                            <!--  -->
+                            <div id="apple" class="div-GF">
+                                <a href="#" class="aGF">
+                                    <i class="fa-brands fa-apple"></i>
+                                    <span>Log in with Apple</span></a
+                                >
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div id="div-email">
+                            <div class="cross2">
+                                <hr />
+                            </div>
+                            <div id="or-email">
+                                <span>OR EMAIL</span>
+                            </div>
+                            <div class="cross2">
+                                <hr />
+                            </div>
+                        </div>
+                        <!--  -->
+                        <form action="">
+                            <div id="form-content">
+                                <!-- email -->
+                                <div id="email">
+                                    <input
+                                        class="input-user"
+                                        id="email-user-input"
+                                        type="text"
+                                        placeholder="Type your email address or username"
+                                    />
+                                    <div class="cross-3"></div>
+                                    <label
+                                        class="input-text"
+                                        for="email-user-input"
+                                        >EMAIL</label
+                                    >
+                                </div>
+                                <!-- password -->
+                                <div id="password" style="margin-top: 30px">
+                                    <input
+                                        class="input-user"
+                                        id="password-user-input"
+                                        type="text"
+                                        placeholder="Type your password"
+                                    />
+                                    <div class="cross-3"></div>
+                                    <div>
+                                        <label
+                                            class="input-text"
+                                            for="email-user-input"
+                                            >PASSWORD</label
+                                        >
+                                        <a id="forgot" href="#">Forgot?</a>
+                                    </div>
+                                </div>
+                                <!-- terms -->
+                                <div id="terms">
+                                    <span
+                                        >By clicking Log in, you accept
+                                        Bedmemo's
+                                        <a href="#">Terms of Services</a>
+                                        and
+                                        <a href="#">Privacy Policy</a></span
+                                    >
+                                </div>
+                                <!-- button -->
+                                <div>
+                                    <input
+                                        type="submit"
+                                        id="input-submit"
+                                        value="Log in"
+                                    />
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </aside>
+        </main>
+        <footer id="footer"></footer>
+    </body>
+</html>
